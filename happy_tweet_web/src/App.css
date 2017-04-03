@@ -3,13 +3,12 @@
 }
 
 .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-    height: 80px;
+    animation: App-logo-spin infinite 10s linear;
+    height: 200px;
 }
 
 .App-header {
     background-color: #222;
-    height: 150px;
     padding: 20px;
     color: white;
 }
@@ -25,4 +24,16 @@
     to {
         transform: rotate(360deg);
     }
+}
+.chart {
+    padding-top: 10px;
+    background-color: #ffffff;
+}
+body {
+    background-color: #222;
+    color: paleturquoise;
+}
+
+.username-box {
+    font-size: 30px;
 }
